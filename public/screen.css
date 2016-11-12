@@ -5,4 +5,184 @@ html {
 body {
   margin: 0;
   font: 16px / 1 sans-serif;
+  background-color: black;
+}
+
+header {
+  background-image: url('https://raw.githubusercontent.com/tiy-tpa-fee/fee-c6/master/assignments/portfolio/assets/space.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header div {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 150px;
+  border-radius: 5px;
+}
+
+div h2 {
+  color: black;
+  font-size: 20px;
+}
+
+div p{
+  color: black;
+  font-size: 12px;
+}
+
+div.intro {
+  font-size: 80%;
+  background-color: hsla(181, 0%, 94%, 0.84);
+  border-radius: 5px;
+  padding: 0 20px;
+  margin-left: 50px;
+  margin-bottom: 250px;
+  margin-top: -100px;
+  position: relative;
+}
+
+div.intro::after {
+  content: '';
+  background-image: url(https://github.com/tiy-tpa-fee/fee-c6/blob/master/assignments/portfolio/assets/tri.png?raw=true);
+  opacity: 0.2;
+  height: 20px;
+  width: 20px;
+  display: block;
+  position: absolute;
+  bottom: -20px;
+  left: 22px;
+}
+
+.Mid {
+  display: flex;
+  padding-left: 0;
+  background-color: hsla(181, 0%, 9%, 0.46);
+}
+
+.Mid li {
+  list-style: none;
+  flex: 1;
+  height: 150px;
+  margin: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+html {
+  min-height: 100%;
+}
+
+h1 {
+  background-color: black;
+}
+
+body {
+  background-color: black;
+  background-image: url('');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: 'Arbutus Slab', serif;
+  height: 100%;
+}
+
+h3 time {
+  font-size: 10px;
+}
+
+article {
+  background-color: #fff;
+  color: #333;
+  border-radius: 3px;
+  position: relative;
+  margin-bottom: 20px;
+  border: 1px solid #333;
+}
+
+article div {
+  padding: 1em;
+}
+
+article header {
+  background-color: red;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px 4px 0 0;
+  height: 70px;
+}
+
+article h3 {
+  margin-top: 2px;
+}
+
+.more {
+  background-color: hsl(200, 80%, 75%);
+  padding: 10px;
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+  bottom: -10px;
+  border: 1px solid hsl(200, 60%, 50%);
+  border-radius: 4px;
+}
+
+.more:link,
+.more:visited {
+  color: white;
+  text-decoration: none;
+}
+
+h4 {
+  text-align: center;
+  font-size: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+  width: 100%;
+  height: 60px;
+  background-color: black;
+}
+
+footer .copyright {
+  padding: 12px;
+  font-size: 12px;
+  color: white;
+}
+
+.social ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-top: -30px;
+}
+
+.social ul a {
+  color: white;
+  margin: 14px;
+}
+
+.social ul a:hover {
+  color: grey;
+}
+
+.social p {
+  text-align: center;
+  color: white;
 }
